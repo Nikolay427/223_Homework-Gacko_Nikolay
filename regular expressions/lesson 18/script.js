@@ -1,6 +1,6 @@
 ﻿/*Задание 18 Номер 2*/
 document.write("<br> №18(2) ");
-let str2 = 'http://nke.ru';
+let str2 = 'https://github.com';
 document.write(/^http(:|s:)\/\//.test(str2));
 
 /*Задание 18 Номер 4*/
