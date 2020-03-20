@@ -11,7 +11,7 @@ document.write(/\.jpe?g$/.test(str4));
 /*Задание 18 Номер 6*/
 document.write("<br> №6 ");
 let str6 = '5555d';
-document.write(/\d{1,12}$/.test(str6));
+document.write(/\d{11}$/.test(str6));
 
 /*Задание 18 Номер 8*/
 document.write("<br> №8 ");
