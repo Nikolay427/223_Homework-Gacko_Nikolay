@@ -1,4 +1,4 @@
-﻿/*lesson*/
+//Задача 1
 let textarea = document.getElementById("textarea");
 textarea.addEventListener('blur',function(){
 	localStorage['value'] = textarea.value;
