@@ -1,4 +1,4 @@
-﻿///5 задание local_storage
+///5 задание 
 let notebook = document.querySelector('#notebook');
 let navigation = notebook.querySelector('#navigation');
 let text = notebook.querySelector('#text')
