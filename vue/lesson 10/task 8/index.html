@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+
+<div id="app">
+		<p>Какой язык для вас родной?</p>
+		<input name="language" type="radio" v-model="res" value="Русский">RU</input>
+		<input name="language" type="radio" v-model="res" value="Английский">EN</input>
+		<input name="language" type="radio" v-model="res" value="Немецкий">DE</input>
+		<p>Твой родной язык: {{ res }}</p>
+</div>
+
+<script type="text/javascript" src="vue.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
