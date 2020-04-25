@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<body>
+
+<div id="app">
+		<input type="checkbox" v-model="res">Нажмите должно работать</input>
+		<p v-bind:style="{color: res ? 'red' : 'black'}">Пример текста</p>
+</div>
+
+<script type="text/javascript" src="vue.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
