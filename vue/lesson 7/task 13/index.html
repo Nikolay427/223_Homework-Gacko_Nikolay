@@ -8,9 +8,9 @@
 <body>
 
 <div id="app">
-	<p v-if="age<18||age==18">подросток</p>
-	<p v-else-if="age>19&&age<25||age==25||age==19">молодой человек</p>
-	<p v-else-if="age>26||age==26">мужчина</p>
+	<p v-if="age < 18 || age == 18"> Подросток </p>
+	<p v-else-if="age > 19 && age < 25 || age == 25 || age == 19"> Молодой человек </p>
+	<p v-else-if="age > 26 || age == 26"> Мужчина </p>
 </div>
 
 <script type="text/javascript" src="vue.js"></script>
