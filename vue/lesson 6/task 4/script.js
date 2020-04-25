@@ -1,12 +1,12 @@
 ﻿let app = new Vue({
 	el: '#app',
 	data: {
-		items: ['1', '2', '3', '4', '5', '-30', '484'],
+		res: ['1', '2', '3', '4', '5', '-30', '484'],
 	},
 
 	methods: {
-		res: function(index) {
-		this.items.splice(index,1,Math.pow(this.items[index],2));
+		res1: function(index) {
+		this.res.splice(index,1,Math.pow(this.res[index],2));
 		},
 	},
 });
