@@ -5,8 +5,8 @@
 	},
 	methods: {
 		res1: function(){
-			this.res = this.res.filter(function(res){
-				return (res > 0 && res < 10);
+			this.res = this.res.filter(function(item){
+				return (item > 0 && item < 10);
 			});
 		},
 	},
